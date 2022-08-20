@@ -1,6 +1,6 @@
 class Solution:
     def tribonacci(self, n: int) -> int:
-        # Tabulation
+        # Memoization
         dp = [-1] * (n + 1)
         def fib(n):
             if n == 0 or n == 1:
