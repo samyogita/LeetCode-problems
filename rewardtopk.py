@@ -9,9 +9,13 @@ class Solution:
             for item in report[i]:
                 if item in pos:
                     mp[student_id[i]] += 3
-                if item in neg:
+                elif item in neg:
                     mp[student_id[i]] -= 1
+                else:
+                    mp[student_id[i]] += 0
+                    
         sortmp = sorted(mp.items(), key = lambda x: (-x[1],x[0]))
+        print(sortmp)
         for i in range(k):
             res.append(sortmp[i][0])
         return res
