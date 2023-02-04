@@ -4,7 +4,7 @@ class Solution:
         for x in nums:
             pre.append(pre[-1]+x)
 
-        for i in range(1, len(nums)):
+        for i in range(1, len(nums)+1):
             if pre[i-1] - pre[0] ==  pre[-1] - pre[i]:
                 return i-1
         return -1
