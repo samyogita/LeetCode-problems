@@ -1,0 +1,176 @@
+[33mcommit b3ff2bf0111d0e0d6cda461abc187b94e5524eb4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Sat May 20 00:04:42 2023 +0545
+
+    Minimum Number of Vertices to Reach All Nodes
+
+[33mcommit aa2f73bbaa206a94933d66f1a50a3da7f44544c9[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Thu May 18 23:13:15 2023 +0545
+
+    Minimum Number of Vertices to Reach All Nodes
+    
+    Given a directed acyclic graph, with n vertices numbered from 0 to n-1, and an array edges where edges[i] = [fromi, toi] represents a directed edge from node fromi to node toi.
+    
+    Find the smallest set of vertices from which all nodes in the graph are reachable. It's guaranteed that a unique solution exists.
+    
+    Notice that you can return the vertices in any order.
+
+[33mcommit 05427fc5a78e4c3d30661b1eb550ac5d03f7a9e9[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Wed May 17 23:37:30 2023 +0545
+
+    Maximum Twin Sum of a Linked List
+    
+    In a linked list of size n, where n is even, the ith node (0-indexed) of the linked list is known as the twin of the (n-1-i)th node, if 0 <= i <= (n / 2) - 1.
+    
+    For example, if n = 4, then node 0 is the twin of node 3, and node 1 is the twin of node 2. These are the only nodes with twins for n = 4.
+    The twin sum is defined as the sum of a node and its twin.
+    
+    Given the head of a linked list with even length, return the maximum twin sum of the linked list.
+
+[33mcommit cb3e2932c78ed4170f205dfb7709f9c621e2f183[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Tue May 16 22:11:19 2023 +0545
+
+    Swap Nodes in Pairs
+    
+    Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+
+[33mcommit fe9a274df85a212791f9511cc95ff61acb9c2949[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Mon May 15 22:15:56 2023 +0545
+
+    Swapping Nodes in a Linked List
+    
+    You are given the head of a linked list, and an integer k.
+    
+    Return the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).
+
+[33mcommit f53c52e3e06ba4fbcaca96f87f74c98a02079a9e[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Sun May 14 21:01:09 2023 +0545
+
+    Maximize Score After N Operations
+    
+    You are given nums, an array of positive integers of size 2 * n. You must perform n operations on this array.
+    
+    In the ith operation (1-indexed), you will:
+    
+    Choose two elements, x and y.
+    Receive a score of i * gcd(x, y).
+    Remove x and y from nums.
+    Return the maximum score you can receive after performing n operations.
+    
+    The function gcd(x, y) is the greatest common divisor of x and y.
+
+[33mcommit 28d6caad3e319203118610cad60f425a49c3bb96[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Sat May 13 21:31:08 2023 +0545
+
+    Count Ways To Build Good Strings
+    
+    Given the integers zero, one, low, and high, we can construct a string by starting with an empty string, and then at each step perform either of the following:
+    
+    Append the character '0' zero times.
+    Append the character '1' one times.
+    This can be performed any number of times.
+    
+    A good string is a string constructed by the above process having a length between low and high (inclusive).
+    
+    Return the number of different good strings that can be constructed satisfying these properties. Since the answer can be large, return it modulo 10^9 + 7.
+
+[33mcommit 9c2b4c54f4052489f174e9216e5b2dbfa844e9f7[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Sat May 13 21:21:15 2023 +0545
+
+    Count Ways To Build Good Strings
+    
+    Given the integers zero, one, low, and high, we can construct a string by starting with an empty string, and then at each step perform either of the following:
+    
+    Append the character '0' zero times.
+    Append the character '1' one times.
+    This can be performed any number of times.
+    
+    A good string is a string constructed by the above process having a length between low and high (inclusive).
+    
+    Return the number of different good strings that can be constructed satisfying these properties. Since the answer can be large, return it modulo 10^9 + 7.
+
+[33mcommit df262bf1b6ede505179d378455eec7a926daaa19[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Fri May 12 21:19:39 2023 +0545
+
+    Solving Questions With Brainpower
+    
+    You are given a 0-indexed 2D integer array questions where questions[i] = [pointsi, brainpoweri].
+    
+    The array describes the questions of an exam, where you have to process the questions in order (i.e., starting from question 0) and make a decision whether to solve or skip each question. Solving question i will earn you pointsi points but you will be unable to solve each of the next brainpoweri questions. If you skip question i, you get to make the decision on the next question.
+    
+    Return the maximum points you can earn for the exam.
+
+[33mcommit 2ecabde773543ba14bb51cf32df38d186b0c33b6[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Thu May 11 22:46:19 2023 +0545
+
+    Uncrossed Lines
+    
+    You are given two integer arrays nums1 and nums2. We write the integers of nums1 and nums2 (in the order they are given) on two separate horizontal lines.
+    
+    We may draw connecting lines: a straight line connecting two numbers nums1[i] and nums2[j] such that:
+    
+    nums1[i] == nums2[j], and
+    the line we draw does not intersect any other connecting (non-horizontal) line.
+    Note that a connecting line cannot intersect even at the endpoints (i.e., each number can only belong to one connecting line).
+    
+    Return the maximum number of connecting lines we can draw in this way.
+
+[33mcommit 1e0b1fb2b50826de2380237a79a61c87d9cb2620[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Wed May 10 21:08:25 2023 +0545
+
+    Find the Divisibility Array of a String
+    
+    You are given a 0-indexed string word of length n consisting of digits, and a positive integer m.
+    
+    The divisibility array div of word is an integer array of length n such that:
+    
+    div[i] = 1 if the numeric value of word[0,...,i] is divisible by m, or
+    div[i] = 0 otherwise.
+    Return the divisibility array of word.
+
+[33mcommit b60cb86329f948dfa98d8cf98d28d520483e8f74[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Tue May 9 21:53:20 2023 +0545
+
+    Jump Game IV
+    
+    Given an array of integers arr, you are initially positioned at the first index of the array.
+    
+    In one step you can jump from index i to index:
+    
+    i + 1 where: i + 1 < arr.length.
+    i - 1 where: i - 1 >= 0.
+    j where: arr[i] == arr[j] and i != j.
+    Return the minimum number of steps to reach the last index of the array.
+    
+    Notice that you can not jump outside of the array at any time.
+
+[33mcommit adcd2b50ada51d9d6df70f712f8270687dfbc451[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Mon May 8 20:33:47 2023 +0545
+
+    Matrix Diagonal Sum
+    
+    Given a square matrix mat, return the sum of the matrix diagonals.
+    
+    Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
+
+[33mcommit 214049fb18f900c67dd9b265b215d83df97d977d[m
+Author: samyogita <77333607+samyogita@users.noreply.github.com>
+Date:   Sun May 7 22:59:42 2023 +0545
+
+    Find the Longest Valid Obstacle Course at Each Position
+    
+    You want to build some obstacle courses. You are given a 0-indexed integer array obstacles of length n, where obstacles[i] describes the height of the ith obstacle.
+    
+    For every index i between 0 and n - 1 (inclusive), find the
