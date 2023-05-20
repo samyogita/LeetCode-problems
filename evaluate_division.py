@@ -25,8 +25,5 @@ class Solution:
                         vis.add(n)
                         g[i][n] = g[i][cur] * g[cur][n]
                         q.append((n, g[i][n]))
-            res.append(ans)
-                
-
-                
+            res.append(ans)   
         return res
